@@ -17,10 +17,12 @@ body{
     background-size: cover;
 }
 
-.close-icon{
+.fa-times{
     position: absolute;
-    right: 5rem;
-    font-size: 5rem;
+    top: 2rem;
+    right: 2rem;
+    font-size: 4rem;
+    color: #eee;
 }
 
 .NEU{
@@ -29,7 +31,6 @@ body{
 
 img{
     width: 30rem;
-    height: 30rem;
     display: inline-block;
     padding-top: 40px;
 }

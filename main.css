@@ -510,7 +510,7 @@ form{
 /*End animations*/
 
 /*Start media queries*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     body{
         background: url("images/sitebg2.jpg") no-repeat center fixed;
         background-size: cover;
@@ -571,6 +571,31 @@ form{
     .pSkills, .wSkills, .oSkills, .dSkills, .tSkills{
         margin-top: 20px;
     }
+
+    .project-image img{
+        width: 20rem;
+    }
+
+    .project-description h1{
+        font-size: 2.5rem;
+        font-weight: 300;
+        margin: 1rem 0;
+    }
+    
+    .project-description h6{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        opacity: 0.3;
+    }
+    
+    .project-description .cta{
+        display: inline-block;
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: #3883ff;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -624,7 +649,28 @@ form{
     }
 
     .project-image img{
-        width: 20rem;
+        width: 10rem;
+    }
+
+    .project-description h1{
+        font-size: 2rem;
+        font-weight: 300;
+        margin: 1rem 0;
+    }
+    
+    .project-description h6{
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        opacity: 0.3;
+    }
+    
+    .project-description .cta{
+        display: inline-block;
+        margin-top: 2.5rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: #3883ff;
     }
 
 }

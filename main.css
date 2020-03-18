@@ -283,7 +283,6 @@ li{
     display: flex;
 }
 .pSkills, .wSkills, .oSkills, .dSkills, .tSkills{
-    flex-direction: column;
     margin-left: 8rem;
 }
 
@@ -518,7 +517,7 @@ form{
     }
 
     .landing-text h1{
-        font-size: 15rem;
+        font-size: 6rem;
     }
 
     .landing-text h6{
@@ -534,7 +533,7 @@ form{
     }
 
     .nav-link{
-        font-size: 4.5rem;
+        font-size: 2rem;
     }
 
     .about-heading h1{
@@ -564,6 +563,14 @@ form{
     .timeline .date::after{
         left: -5.9rem;
     }
+
+    .skills{
+        flex-direction: column;
+    }
+
+    .pSkills, .wSkills, .oSkills, .dSkills, .tSkills{
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -573,7 +580,7 @@ form{
     }
 
     .landing-text h1{
-        font-size: 8rem;
+        font-size: 5rem;
     }
 
     .landing-text h6{
@@ -581,7 +588,7 @@ form{
     }
 
     .nav-link{
-        font-size: 3.5rem;
+        font-size: 2rem;
     }
 
     .about .container{
@@ -590,20 +597,6 @@ form{
 
     .profile-img{
         margin: 0 0 7rem 0;
-    }
-
-    .project-item{
-        flex-direction: column;
-    }
-
-    .project-img{
-        margin: 0 0 2rem 0;
-        order: 1;
-    }
-
-    .project-description{
-        margin: 0;
-        order: 2;
     }
 
     .timeline p{
@@ -621,5 +614,18 @@ form{
     .up{
         right: 2rem;
     }
+
+    .skills{
+        flex-direction: column;
+    }
+
+    .pSkills, .wSkills, .oSkills, .dSkills, .tSkills{
+        margin-top: 20px;
+    }
+
+    .project-image img{
+        width: 20rem;
+    }
+
 }
 /*End media queries*/
